@@ -34,8 +34,17 @@ h1 {
     color: #615151;
     font-family: "Roboto Condensed", sans-serif;
 }
-
-
+.hero-inferior-image{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10%;
+}
+/* ABOUT ME */
+.aboutMe{
+    padding: 3rem;
+    background-color: #f5f6f7;
+    text-align: center;
+}
 
 
 
@@ -47,5 +56,6 @@ h1 {
 @media screen and (min-width: 700px) {
     .hero-inferior-image{
         max-width: 600px;
+        
     }
 }
